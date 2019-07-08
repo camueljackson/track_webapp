@@ -1,12 +1,13 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import TopNav from './TopNav.js';
-import './App.css';
+import 'antd/dist/antd.css';
 
 function App() {
 	return (
-		<div className="App">
+		<BrowserRouter>
 			<TopNav />
-		</div>
+		</BrowserRouter>
 	);
 }
 
